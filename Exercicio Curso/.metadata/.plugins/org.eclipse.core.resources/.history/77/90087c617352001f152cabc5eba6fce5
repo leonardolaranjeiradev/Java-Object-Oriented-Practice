@@ -1,0 +1,19 @@
+package application;
+
+import entities.Aluno;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Aluno aluno1 = new Aluno("João", "123456f", 22);
+		Aluno aluno2 = new Aluno("Jessica", "987654s", 21);
+		
+		System.out.println("Alunos:");
+		aluno1.infoAluno();
+		aluno2.infoAluno();
+		
+
+	}
+
+}
